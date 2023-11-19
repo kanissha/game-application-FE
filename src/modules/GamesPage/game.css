@@ -1,0 +1,117 @@
+.game-card{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid #2eff53;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.game-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-fav {
+    margin-top: 10px;
+}
+
+.game-name{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #af1ac9;
+}
+
+.game-desc{
+    font-size: 16px;
+    color: #f6f40f;
+}
+
+.chips{
+    display: flex;
+    margin: 5px;
+}
+
+.game-chip{
+    background-color: #00fefe;
+    color: #076fec;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 16px;
+    padding: 6px;
+    margin: 10px;
+    margin-left: -5px;
+    width: max-content;
+}
+
+.welcome-text{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: -150px;
+    margin-bottom: 20px;
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+.add-game{
+    margin-left: 20px;
+    height: 32px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #076fec;
+    color: white;
+}
+
+.add-reviews{
+    border: 1px solid #2eff53;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 280px;
+    width: 400px;
+}
+
+.add-review{
+    margin-left: 20px;
+    height: 32px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #f4973d;
+    color: white;
+}
+
+.add-game-1{
+    height: 32px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #076fec;
+    color: white;
+    margin-left: 10px;
+}
+
+.no-games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-games {
+    border: 1px solid #2eff53;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 420px;
+    width: 400px;
+}
+
+.add-game-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
