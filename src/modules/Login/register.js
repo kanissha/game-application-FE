@@ -9,7 +9,7 @@ export default function Register(props) {
   const [userPassword, setUserPassword] = useState(null);
 
   const registerUser = () => {
-    fetch("https://game-list-flask.onrender.com/register", {
+    fetch("https://game-list-flask1.onrender.com/register", {
       method: "POST",
       body: JSON.stringify({
         username: userName,

@@ -15,7 +15,7 @@ export default function AddGame() {
     virtual_currency_earned: "",
   });
   const addGame = () => {
-    fetch("https://game-list-flask.onrender.com/add_game", {
+    fetch("https://game-list-flask1.onrender.com/add_game", {
       method: "POST",
       body: JSON.stringify(gameDetails),
     })

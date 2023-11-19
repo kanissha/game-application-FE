@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AddGame() {
   const addReview = () => {
-    fetch("https://game-list-flask.onrender.com/addfeedback/1", {
+    fetch("https://game-list-flask1.onrender.com/addfeedback/1", {
       method: "POST",
       body: JSON.stringify({
         username:"Kanissha",
