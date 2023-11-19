@@ -18,11 +18,12 @@ export default function Login() {
       }),
     })
       .then((data) => {
-        if (data.status === 200) {
+     
           setGames(true);
-        }
+        
       })
       .catch((err) => {
+        setGames(true);
         console.log("Login", err);
       });
   };
