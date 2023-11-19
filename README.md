@@ -1,4 +1,5 @@
-Problem Statement #6:Game List application [Frontend]
+Problem Statement #6:Game List application-Backend task
+Implemented few frontend features for this title
 
 Installation steps for react:
 1)npm i
